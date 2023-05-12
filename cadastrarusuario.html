@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cadastrodeusuario.css">
     <title>Home</title>
 </head>
 
@@ -25,36 +26,37 @@
     </header>
 
     <section>
-        <h1>Cadastro de usuário</h1>
+        <h1 id="titulo">Cadastro de usuário</h1>
 
         <form action="">
-            <div>
-                <label for="">Nome</label>
-                <input type="text">
+            <div id="div-formulario">
+                <label class="campoform" for="">Nome</label>
+                <input class="inputform" type="text">
 
-                <label for="">email</label>
-                <input type="email">
+                <label class="campoform" for="">email</label>
+                <input class="inputform" type="email" autocomplete="on">
 
-                <label for="">Senha</label>
-                <input type="password">
+                <label class="campoform" for="">Senha</label>
+                <input class="inputform" type="password">
 
-                <label for="">Imagem</label>
-                <input type="text">
+                <label class="campoform" for="">Imagem</label>
+                <input class="inputform" type="text">
 
-                <label for="">endereço</label>
-                <input type="text">
+                <label class="campoform" for="">endereço</label>
+                <input class="inputform" type="text">
 
-                <label for="">Produtos Favoritas</label>
-                <input type="text">
+                <label class="campoform" for="">Produtos Favoritas</label>
+                <input class="inputform" type="text">
 
-                <label for="">Pedidos</label>
-                <input type="text">
+                <label class="campoform" for="">Pedidos</label>
+                <input class="inputform" ype="text">
 
-                <label for="">Admin</label>
-                <input type="radio" name="admin">não
-                <input type="radio" name="admin">sim
-
-                <button>Cadastrar usuário</button>
+                <label class="campoform" for="">Admin</label>
+                <div id="divadm">
+                    <input class="admin" type="radio" name="admin">Não
+                    <input class="admin" type="radio" name="admin">Sim
+                </div>
+                <button id="botaoform">Cadastrar usuário</button>
             </div>
         </form>
 
@@ -65,28 +67,28 @@
         <ul class="rodape-card">
             <li class="footer-item">
                 <a href="home.html"><i class="bi bi-house-fill">
-                        
+
                     </i>
                     <p class="nome-do-item">Home</p>
                 </a>
             </li>
             <li class="footer-item">
                 <a href="cadastrarusuario.html"><i class="bi bi-emoji-smile">
-                        
-                </i>
-                <p class="nome-do-item">Cadastro do usuário</p>
+
+                    </i>
+                    <p class="nome-do-item">Cadastro do usuário</p>
                 </a>
             </li>
             <li class="footer-item">
                 <a href="cadastrarproduto.html"><i class="bi bi-receipt">
-                        
+
                     </i>
                     <p class="nome-do-item">Cadastro do produto</p>
                 </a>
             </li>
             <li class="footer-item">
                 <a href="Carrinho.html"><i class="bi bi-cart">
-                        
+
                     </i>
                     <p class="nome-do-item">Carrinho</p>
                 </a>
