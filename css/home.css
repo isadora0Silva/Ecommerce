@@ -170,7 +170,7 @@ li.categoria {
 .avaliacao {
     text-align: center;
     border: .2rem outset var(--color-padrao);
-    border-radius: .3rem; 
+    border-radius: .3rem;
     width: 50%;
     margin: auto;
 }
@@ -196,36 +196,36 @@ li.categoria {
     font-size: 25px;
     color: grey;
     padding: .5rem;
- 
+
 }
 
 /*expansão*/
 
 @media (max-width: 480px) {
-    body{
+    body {
         width: 100%;
     }
 
-    i.bi-search{
+    i.bi-search {
         position: absolute;
         margin-right: 3rem;
         padding-left: 2rem;
     }
 
-    #categoria-ul{
+    #categoria-ul {
         flex-wrap: wrap;
     }
 
-#cards{
-    flex-wrap: wrap;
-}
+    #cards {
+        flex-wrap: wrap;
+    }
 
-.card{
-    width: 100%;
-}
+    .card {
+        width: 100%;
+    }
 
-#frase{
-    display: none;
-}
-    
+    #frase {
+        display: none;
+    }
+
 }
