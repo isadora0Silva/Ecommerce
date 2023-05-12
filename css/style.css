@@ -92,7 +92,7 @@ i.bi-cart {
 
 /*Expansivo*/
 
-@media screen and (max-width: 480px){
+@media (max-width: 480px){
 
     body{
         width: 100%;        
@@ -102,6 +102,10 @@ i.bi-cart {
         display: flex;
     }
     
+    #perfil{
+        transform: translatex(300%);
+    }
+
     #localizacao{
         display: none; 
     }
@@ -114,7 +118,7 @@ i.bi-cart {
 
     .footer-item{
         display: flex;
-       justify-content: center;
+        justify-content: center;
         width: 100%;    
     }
 

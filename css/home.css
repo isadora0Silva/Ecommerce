@@ -201,15 +201,31 @@ li.categoria {
 
 /*expansão*/
 
-@media screen and(max-width: 480px) {
+@media (max-width: 480px) {
     body{
         width: 100%;
     }
 
     i.bi-search{
         position: absolute;
+        margin-right: 3rem;
         padding-left: 2rem;
     }
 
+    #categoria-ul{
+        flex-wrap: wrap;
+    }
+
+#cards{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 100%;
+}
+
+#frase{
+    display: none;
+}
     
 }
