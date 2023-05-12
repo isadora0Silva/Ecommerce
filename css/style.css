@@ -1,0 +1,121 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {   
+    width: 100%;
+    background-color: rgb(243, 239, 240);
+}
+
+:root {
+    --back-clea: rgb(228, 209, 212);
+    --color-padrao: rgba(238, 136, 153, 0.664);
+
+}
+
+/*cabeçalho*/
+
+.cabecalho {
+    width: 100%;
+    background-image: url(https://thumbs.dreamstime.com/b/cantoda-comida--vis%C3%A3o-de-cima-para-baixo-sobre-um-fundo-banner-escuro-com-espa%C3%A7o-c%C3%B3pia-m%C3%A9xico-food-border-top-down-191566359.jpg);
+    background-size: cover;
+}
+
+.menu .ul-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.ul-menu li {
+    list-style: none;
+    padding: 2rem;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+
+/*Rodapé*/
+
+footer {
+    background-color: var(--back-clea);
+    margin-top: 5rem;
+}
+
+.rodape-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style: none;
+    display: flex;
+}
+
+.rodape-card a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.footer-item {
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+i.bi-house-fill {
+    font-size: 30px;
+    color: var(--color-padrao);
+}
+
+i.bi-emoji-smile {
+    font-size: 30px;
+    color: var(--color-padrao);
+}
+
+i.bi-receipt {
+    font-size: 30px;
+    color: var(--color-padrao);
+}
+
+i.bi-cart {
+    font-size: 30px;
+    color: var(--color-padrao);
+}
+
+.nome-do-item {
+    font-size: 20px;
+    color: gray;
+}
+
+/*Expansivo*/
+
+@media screen and (max-width: 480px){
+
+    body{
+        width: 100%;        
+    }
+    header{
+        width: 100%;  
+        display: flex;
+    }
+    
+    #localizacao{
+        display: none; 
+    }
+    
+    .rodape-card{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .footer-item{
+        display: flex;
+       justify-content: center;
+        width: 100%;    
+    }
+
+}

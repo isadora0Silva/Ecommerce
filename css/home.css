@@ -1,0 +1,215 @@
+/*corpo*/
+/*Mensagens*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mensagens-inicio {
+    padding: 2rem;
+    background-color: var(--back-clea);
+}
+
+#nome-empresa {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    color: var(--color-padrao);
+    text-shadow: gray 1px 1px;
+}
+
+.mensagem {
+    color: grey;
+    font-size: 25px;
+}
+
+/*pesquisa*/
+
+#input {
+    display: flex;
+    padding-top: .5rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+i.bi-search {
+    position: absolute;
+    color: var(--color-padrao);
+    padding-top: .2rem;
+    padding-left: 4rem;
+    font-size: 30px;
+}
+
+#input-text {
+    width: 90%;
+    margin: auto;
+    font-size: 25px;
+    padding: 1.2rem 0 0.5rem;
+    padding-left: 5rem;
+    border: 2mm ridge var(--color-padrao);
+    text-align: center;
+}
+
+input:focus {
+    outline: 0;
+    color: grey;
+}
+
+/*categoria*/
+
+#categorias {
+    display: flex;
+    justify-content: center;
+}
+
+#categoria-ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 90%;
+}
+
+.categoria-a {
+    display: flex;
+    margin: 3rem 3rem;
+    text-decoration: none;
+    justify-content: center;
+}
+
+li.categoria {
+    margin: auto;
+}
+
+.categoria {
+    margin: auto;
+    color: grey;
+    border: solid 2px var(--back-clea);
+    border-radius: 1rem;
+    width: 90%;
+    padding: 2rem;
+    margin: 1.2rem;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.6s ease-in-out;
+    transition: box-shadoe 0.2s ease-in-out;
+}
+
+.categoria:hover {
+    background-color: var(--color-padrao);
+    border: 2px solid grey;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px black;
+}
+
+/*Produtos*/
+
+#cards {
+    display: flex;
+    background-color: rgb(243, 239, 240);
+}
+
+.card {
+    display: block;
+    margin: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 5px 15px black;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    align-content: center;
+}
+
+.card:hover {
+    box-shadow: inset 50px 0 0 0;
+    color: rgb(243, 239, 240);
+}
+
+.card img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.nome-produto {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 900;
+    color: var(--color-padrao);
+}
+
+.card a {
+    text-decoration: none;
+}
+
+/*ver mais*/
+
+#ver-mais {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+#ver-mais a {
+    text-decoration: none;
+    color: grey;
+    margin: .8rem 2rem;
+}
+
+/*Avaliacao*/
+
+.avaliacao {
+    text-align: center;
+    border: .2rem outset var(--color-padrao);
+    border-radius: .3rem; 
+    width: 50%;
+    margin: auto;
+}
+
+#avalie {
+    text-align: center;
+    margin: auto;
+    padding: .5rem;
+    font-size: 40px;
+}
+
+.bi-hand-thumbs-up {
+    color: green;
+    font-size: 25px;
+}
+
+.bi-hand-thumbs-down {
+    color: red;
+    font-size: 25px;
+}
+
+#frase {
+    font-size: 25px;
+    color: grey;
+    padding: .5rem;
+ 
+}
+
+/*expansão*/
+
+@media screen and(max-width: 480px) {
+    body{
+        width: 100%;
+    }
+
+    i.bi-search{
+        position: absolute;
+        padding-left: 2rem;
+    }
+
+    
+}
