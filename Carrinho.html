@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/carrinho.css">
     <title>Carrinho</title>
 </head>
 
@@ -20,72 +21,80 @@
                     <li><i class="bi bi-file-person"></i></li>
                 </a>
 
-                <liid="localizacao"><i class="bi bi-geo-alt"></i>Franca,SP</li>
+                <li id="localizacao"><i class="bi bi-geo-alt"></i>Franca,SP</li>
             </ul>
         </nav>
     </header>
-    
-    <section>
+
+    <section id="inicio">
         <i class="bi bi-chevron-double-left"></i></li>
-        <p>Carrinho</p>
+        <h2 id="titulo">Carrinho</h2>
+    </section>
+
+    <div id="Esvaziar">
         <i class="bi bi-cart-x"></i></li>
-    </section>
+        <p>Esvaziar o Carrinho</p>
+    </div>
 
-    <section>
+    <section id="carrinho">
+        <section class="produto-carrinho">
 
-        <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrRwkjCbCdUnqHTZtOtGHlH5Xqrg8ptQna9QQp3QVdiMrnABoRNboVI8EFL2HT_GKqxM&usqp=CAU"
-                alt="">
-        </div>
-
-        <div>
-            <h3>Nome do produto</h3>
-            <div>
-                <i class="bi bi-dash-square"></i>
-                <p>1</p>
-                <i class="bi bi-plus-square"></i>
+            <div class="divimagem">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrRwkjCbCdUnqHTZtOtGHlH5Xqrg8ptQna9QQp3QVdiMrnABoRNboVI8EFL2HT_GKqxM&usqp=CAU"
+                    alt="">
             </div>
-        </div>
 
-        <div>
-            <i class="bi bi-plus-trash"></i>
-            <p>00000000,00</p>
-        </div>
-
-    </section>
-
-    <section>
-
-        <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrRwkjCbCdUnqHTZtOtGHlH5Xqrg8ptQna9QQp3QVdiMrnABoRNboVI8EFL2HT_GKqxM&usqp=CAU"
-                alt="">
-        </div>
-
-        <div>
-            <h3>Nome do produto</h3>
-            <div>
-                <i class="bi bi-dash-square"></i>
-                <p>1</p>
-                <i class="bi bi-plus-square"></i>
+            <div class="produto">
+                <h3>Nome do produto</h3>
+                <div class="quantidade">
+                    <i class="bi bi-dash-square"></i>
+                    <p>1</p>
+                    <i class="bi bi-plus-square"></i>
+                </div>
+                <div class="valor">
+                    <p>R$ 00000000,00</p>
+                </div>
             </div>
-        </div>
 
-        <div>
-            <i class="bi bi-plus-trash"></i>
-            <p>00000000,00</p>
-        </div>
+            <i class="bi bi-trash"></i>
+
+        </section>
+
+        <section class="produto-carrinho">
+
+            <div class="divimagem">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrRwkjCbCdUnqHTZtOtGHlH5Xqrg8ptQna9QQp3QVdiMrnABoRNboVI8EFL2HT_GKqxM&usqp=CAU"
+                    alt="">
+            </div>
+
+            <div class="produto">
+                <h3>Nome do produto</h3>
+                <div class="quantidade">
+                    <i class="bi bi-dash-square"></i>
+                    <p>1</p>
+                    <i class="bi bi-plus-square"></i>
+                </div>
+                <div class="valor">
+                    <p>R$ 00000000,00</p>
+                </div>
+            </div>
+
+            <i class="bi bi-trash"></i>
+
+        </section>
 
     </section>
 
-    <section>
-        <input type="text" placeholder="Digite seu cupon aqui">
+
+    <section id="cupom">
+        <input type="text" placeholder="Digite seu cupom aqui">
         <button>Aplicar</button>
     </section>
 
-    <section>
+    <section id="final">
         <div>
-            <p>Total</p>
-            <p>Delivery</p>
+            <p>Total: </p>
+            <p >Delivery</p>
         </div>
         <button>Ir para pagamento</button>
     </section>
@@ -95,28 +104,28 @@
         <ul class="rodape-card">
             <li class="footer-item">
                 <a href="home.html"><i class="bi bi-house-fill">
-                        
+
                     </i>
                     <p class="nome-do-item">Home</p>
                 </a>
             </li>
             <li class="footer-item">
                 <a href="cadastrarusuario.html"><i class="bi bi-emoji-smile">
-                        
-                </i>
-                <p class="nome-do-item">Cadastro do usuário</p>
+
+                    </i>
+                    <p class="nome-do-item">Cadastro do usuário</p>
                 </a>
             </li>
             <li class="footer-item">
                 <a href="cadastrarproduto.html"><i class="bi bi-receipt">
-                        
+
                     </i>
                     <p class="nome-do-item">Cadastro do produto</p>
                 </a>
             </li>
             <li class="footer-item">
                 <a href="Carrinho.html"><i class="bi bi-cart">
-                        
+
                     </i>
                     <p class="nome-do-item">Carrinho</p>
                 </a>

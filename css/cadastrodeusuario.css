@@ -38,14 +38,6 @@
     text-align: center;
 }
 
-.inputform {
-    margin: auto;
-    padding: .5rem 4rem 0;
-    border: 1mm ridge var(--color-padrao);
-    text-align: left;
-    text-align: center;
-}
-
 #divadm{
     display: flex;
     justify-content: center;

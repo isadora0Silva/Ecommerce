@@ -1,0 +1,232 @@
+:root {
+    --back-clea: rgb(228, 209, 212);
+    --color-padrao: rgba(238, 136, 153, 0.664);
+    /*cores definidas para o projeto*/
+}
+
+#inicio {
+    background-color: var(--back-clea);
+    padding-bottom: 2rem;
+}
+
+.bi-chevron-double-left {
+    font-size: 20px;
+    color: gray;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: var(--color-padrao);
+}
+
+#Esvaziar {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    align-content: center;
+    align-items: center;
+    background-color: var(--color-padrao);
+    margin: auto;
+    border: solid grey;
+    border-radius: 4px;
+    margin-top: 2rem;
+
+}
+
+#Esvaziar:hover {
+    font-size: 20px;
+    border-color: var(--color-padrao);
+    background-color: var(--back-clea);
+}
+
+.bi-cart-x {
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+#carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 0 5px 15px black;
+    margin-top: 4rem;
+    padding-bottom: 30rem;
+}
+
+.produto-carrinho {
+    display: flex;
+    width: 90%;
+    border-radius: 2rem;
+    box-shadow: 0 5px 15px black;
+    margin-top: 4rem;
+}
+
+.divimagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.divimagem img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.produto h3 {
+    margin: auto;
+    color: var(--color-padrao);
+    font-size: 25px;
+
+}
+
+.quantidade {
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+}
+
+.quantidade i {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    color: var(--color-padrao);
+}
+
+.valor {
+    display: flex;
+    justify-content: center;
+}
+
+.valor p {
+
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.bi-trash {
+    margin: auto;
+    color: rgba(250, 77, 77, 0.726);
+    font-size: 30px;
+}
+
+.bi-trash:hover {
+    font-size: 40px;
+    color: red;
+}
+
+#cupom {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    box-shadow: 0 5px 15px black;
+    margin-top: 4rem;
+}
+
+#cupom input {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: .5rem 8rem 0;
+    border: 1mm ridge var(--color-padrao);
+    text-align: center;
+}
+
+
+
+#cupom button {
+
+    font-size: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 4rem 0;
+    border-color: var(--back-clea);
+    background-image: linear-gradient(to bottom, var(--color-padrao), rgb(243, 239, 240));
+
+}
+
+#final {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
+    width: 60%;
+    background-color: var(--back-clea);
+    padding: 2rem;
+}
+
+#final div {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-right: 17rem;
+    background-color: var(--back-clea);
+
+}
+
+
+#final button {
+    font-size: 15px;
+    padding: 0 3rem 0;
+    border-color: var(--back-clea);
+    background-image: linear-gradient(to bottom, var(--color-padrao), rgb(243, 239, 240));
+
+}
+
+/*media queire*/
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+
+    #titulo {
+        font-size: 35px;
+    }
+
+    .produto-carrinho{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .produto h3{
+        font-size: 20px;
+    }  
+
+    #cupom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #cupom input{
+        padding: .5rem 6rem 0;
+        margin-bottom: 0;
+    }
+
+    #final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #final p {
+        font-size: 20px;
+    }
+
+}
