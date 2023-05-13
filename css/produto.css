@@ -1,0 +1,123 @@
+:root {
+    --back-clea: rgb(228, 209, 212);
+    --color-padrao: rgba(238, 136, 153, 0.664);
+    /*cores definidas para o projeto*/
+}
+
+
+#inicio {
+    background-color: var(--back-clea);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+#inicio p{
+    font-size: 20px;
+}
+
+.bi-heart-fill{
+    float: right;
+    margin:auto;
+    margin-right: 2rem;
+    font-size: 20px;
+}
+
+
+/*Produto*/
+
+#produto{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;  
+    border-radius: 2rem;
+    box-shadow: 0 5px 15px black;  
+    margin-top: 4rem;
+    
+}
+
+#topo{
+    display: flex;
+    width: 90%;
+    border-radius: 2rem;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: var(--color-padrao);
+
+}
+
+#descricao{
+    margin-right: 4rem;
+    margin: auto;
+    font-size: 20px;  
+}
+
+#imagem{
+
+    display: flex;
+    
+
+}
+
+.quantidade {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.quantidade i {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    color: var(--color-padrao);
+    margin-top: 2rem;
+}
+
+.quantidade p {
+    margin-top: 2rem;
+}
+
+
+.valor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.valor p {
+
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+#adicionar{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    align-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.bi-cart-plus {
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+#adicionar button{
+    font-size: 15px;
+    padding: 0 3rem 0;
+    border-color: var(--back-clea);
+    background-image: linear-gradient(to bottom, var(--color-padrao), rgb(243, 239, 240));
+
+}
+
