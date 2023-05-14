@@ -90,3 +90,17 @@
     }
 
 }
+
+/*confirmação de login*/
+
+.card-test{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+    border-radius: 2rem;
+    box-shadow: 0 5px 15px black;
+    margin-bottom: 2rem;
+}
